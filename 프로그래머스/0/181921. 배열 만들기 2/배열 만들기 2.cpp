@@ -1,16 +1,16 @@
 #include <iostream>
-#include <algorithm>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 vector<int> solution(int l, int r) {
     vector<int> answer;
     
     for (int i = l; i <= r; i++) {
-        int n =i;
+        int n = i;
         bool ok = true;
         
-        while (n > 0) {
+        while (n > 0) { 
             int digit = n % 10;
             
             if (digit != 0 && digit != 5) {
