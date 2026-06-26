@@ -1,0 +1,14 @@
+Finding_Fractions_1193        cd ~/C++/Baek/Step-by-Step Learning/General Mathematics 1
+// 2차원 배열에서 입력한 순서의 분수 찾기 문제
+
+
+Multiples_and_Factors_5086    cd ~/C++/Baek/Step-by-Step Learning/Factors, Multiples, and Primes
+// 입력한 두 수의 관계(약수 or 배수 or 관계 X) 판별
+// 무한 반복 중 0 0 입력시 조건문을 이용하여 종료 
+
+
+receipt_5565                 cd ~/C++/Baek/ect/Input, Output, and Arithmetic Operations
+// 총 10개의 책 가격과 9개의 개별적인 책의 가격을 입력했을 때 나머지 책 1권의 가격
+
+
+
