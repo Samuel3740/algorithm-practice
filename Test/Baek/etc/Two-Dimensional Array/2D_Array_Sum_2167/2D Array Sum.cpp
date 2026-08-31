@@ -20,8 +20,11 @@ int main(){
     
     for(int q = 0; q < K; q++){
         int i, j, x, y;
+
         cin >> i >> j >> x >> y;
+
         long long result = prefix[x][y] - prefix[i-1][y] - prefix[x][j-1] + prefix[i-1][j-1];
+        
         cout << result << "\n";
     }
     
