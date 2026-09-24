@@ -6,7 +6,7 @@ using namespace std;
 vector<string> solution(vector<string> quiz) {
     vector<string> answer;
     
-    for (const string& q : quiz) {
+    for (const string& q : quiz) { // 하나의 문자열씩 끊어서 반복
         int X, Y, Z;
         string op, eq;
         stringstream ss(q);
